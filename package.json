@@ -1,0 +1,21 @@
+{
+  "name": "greet-utils",
+  "version": "1.0.0",
+  "description": "A simple utility package for greetings",
+  "homepage": "https://github.com/tushar-the-dev/greet-utils#readme",
+  "bugs": {
+    "url": "https://github.com/tushar-the-dev/greet-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tushar-the-dev/greet-utils.git"
+  },
+  "license": "MIT",
+  "author": "Tushar Malankiya",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": ["index.js", "src"]
+}
