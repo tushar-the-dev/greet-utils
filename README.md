@@ -27,6 +27,19 @@ console.log(formatName('tushar'));
 // TUSHAR
 ```
 
+```javascript
+
+import { setGreet } from "greet-utils";
+
+const greet = new setGreet({
+    apiKey: "AIzaSyBESFAaJowj4-lt-ONHYcrTK0ERdf56uAo"
+})
+
+const greetMsg = await greet.Greet("Tushar");
+console.log(greetMsg);
+
+```
+
 ## Features
 
 - Simple greeting function
