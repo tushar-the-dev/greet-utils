@@ -9,7 +9,7 @@ class setGreet{
     async Greet(name){
        const res =  await this.ai.models.generateContent({
         model: 'gemini-3-flash-preview',
-        contents: `My name is ${name}. only greet me. don't ask any questions`
+        contents: `My name is ${name}. only greet me very well. don't ask any questions`
     });
 
     return res.text;
